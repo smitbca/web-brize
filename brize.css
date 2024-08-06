@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid{
+    width: 100%;
+    overflow: hidden;
+    /* background:url(/smit/html/images/slider_1.jpg); */
+}
+.ptb-100 {
+    padding:50px ! important;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    padding: 0px 0px;
+    float: left;
+    overflow: hidden;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 24.99%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 49.99%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 74.99%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.69%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.container{
+    width: 1800px;
+    box-sizing:border-box;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 20px;
+}
+.envato_market{
+    height: 20px;
+    margin: 0px;
+    margin-top: 10px;
+}
+.button_buynow{
+    float: right;
+    height: 40px;
+    width: 100px;
+    color: aliceblue;
+    background-color: #7aa93c;
+    border-radius: 6px;
+}
+.container2{
+    width: 1800px;
+    box-sizing:border-box;
+    overflow: hidden;
+    background-color: rgb(179, 179, 179);
+    margin: auto;
+    padding: 20px;
+}
+.manu ul,.li{
+ display:flex;
+ justify-content: space-around;
+list-style: none;
+margin-top: 20px;
+font-weight: 600;
+}
+li:hover{
+    color: #20c997;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
