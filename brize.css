@@ -93,7 +93,7 @@
 .button_buynow{
     float: right;
     height: 40px;
-    width: 100px;
+    width: 120px;
     color: aliceblue;
     background-color: #7aa93c;
     border-radius: 6px;
@@ -111,7 +111,7 @@
  justify-content: space-around;
 list-style: none;
 margin-top: 20px;
-font-weight: 600;
+font-weight: 600
 }
 li:hover{
     color: #20c997;
@@ -125,3 +125,16 @@ li:hover{
     margin-top: 18px;
 }
 
+.container3{
+    width: 1800px;
+    box-sizing:border-box;
+    overflow: hidden;
+    background-color: rgb(179, 179, 179);
+    margin: auto;
+}
+.img_yellow{
+
+}
+.ggg{
+    display:flex;
+}
