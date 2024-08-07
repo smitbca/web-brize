@@ -203,6 +203,7 @@ h1{
 }
 .new_colection_section{
     margin-top: 50px;    
+    /* border-bottom: 2px solid rgb(57, 57, 57); */
 }
 .big_font{
     font-size: 50px;
@@ -220,4 +221,43 @@ h1{
 .new_colection_section{
     box-sizing: border-box;
     display: flex;
+}
+.icon_arow:hover{
+    color: #20c997;
+    cursor: pointer;
+}
+.line_white{
+    border-bottom: 3px solid rgb(162, 162, 162);
+}
+.black_line{
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.ph_5{
+    width: 380px;
+    margin-top: 80px;
+    padding: 20px;
+}
+.abc{
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.price_section{
+    text-align: center;
+}
+.star_white{
+    color: #8a8a8a;
+}
+.name_photo{
+    margin: auto;
+    width: 150px;
+}
+.name_photo:hover{
+  color: #20c997;
+}
+.old_price{
+    color: #8a8a8a;
+}
+.price_section h3{
+    margin-top: 5px;
 }
