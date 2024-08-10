@@ -113,18 +113,20 @@
         padding-top: 13px;
     }
 
-    .menu ul{
+    .menu ul {
         margin: 0px;
         padding: 0px;
         display: flex;
         justify-content: center;
     }
-    .menu li{
+
+    .menu li {
         list-style: none;
         font-size: 14px;
         font-weight: 600;
         text-transform: uppercase;
     }
+
     .menu a {
         color: #000;
         padding: 33px 16px;
@@ -222,7 +224,7 @@
         margin-top: 75px;
     }
 
-    .ph_1{
+    .ph_1 {
         width: 100%;
     }
 
@@ -472,38 +474,58 @@
         color: black;
     }
 
-    .opening_sec,
-    li {
+    .opening_sec li {
         font-size: 15px;
     }
- .footer_middle_name{
-    font-size: 20px;
- }
- .footer_middle__input_name{
-    height: 30px;
-    width: 300px;
-    margin-left: 15px;
-    outline: none;
-    border: 2px solid black;
- }
 
- .aaa{
-    padding: 30px 0px 10px 0px;
-    border: 1px solid rgb(230, 228, 228);
- }
+    .footer_middle_name {
+        font-size: 20px;
+    }
 
- .logo_section{
-    float: right;
-    line-height: 43px;
- }
- .footer_last{
-    font-size: 15px;
-    font-weight: 200;
- }
- .social_icon{
-    display: block;
-    justify-content: end;
- }
- .icons{
-    justify-content: space-between;
- }
+    .footer_middle__input_name {
+        height: 30px;
+        width: 300px;
+        margin-left: 15px;
+        outline: none;
+        border: 2px solid black;
+    }
+
+    .aaa {
+        padding: 30px 0px 10px 0px;
+        border: 1px solid rgb(230, 228, 228);
+    }
+
+    .logo_section {
+        float: right;
+        line-height: 43px;
+    }
+
+    .footer_last {
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .icons ul {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+    }
+
+    .icons ,i {
+        margin-left: 12px;
+        color: #8a8a8a;
+    }
+
+    .icons i:hover {
+        color: #20c997;
+    }
+    .copyright-info i{
+        margin-left: 0px;
+    }
+    .copyright-info{
+        float: right;
+        margin-top: 20px;
+    }
+    .copyright-info a{
+        color: #000;
+    }
