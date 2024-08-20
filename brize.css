@@ -299,7 +299,7 @@
         transform: rotate(90deg);
     }
 
-     .nav_tabs ul {
+    .nav_tabs ul {
         display: flex;
         justify-content: center;
         list-style: none;
@@ -814,11 +814,120 @@
         margin-top: 12px;
         transform: rotate(90deg);
     }
+
     .price_section_two {
         text-align: center;
         margin-top: 20px;
         cursor: pointer;
-        font-size: 20px; 
+        font-size: 20px;
         font-weight: 100;
     }
-    
+
+    .thumnail_image {
+        width: 15%;
+        overflow: hidden;
+        float: left;
+    }
+
+    .tab_menu_nav li {
+        position: relative;
+        margin-bottom: 15.5px;
+    }
+
+    .larg_img {
+        float: left;
+        width: 686px;
+        padding-left: 20px;
+    }
+
+    .product_description,
+    h1 {
+        font-weight: 100;
+    }
+
+    .reting_section li {
+        color: yellow;
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    .product_description p {
+        font-size: 20px;
+        color: #6a6a6a;
+        margin-top: 10px;
+    }
+
+    .price_box {
+        width: 170px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 2px;
+
+    }
+
+    .qnt_addcart {
+        height: 35px;
+        width: 55px;
+        background-color: #e5e5e5;
+        border: none;
+        font-size: 20px;
+        float: left;
+        outline: none;
+    }
+
+    .add_to_cart {
+        border: none;
+        height: 35px;
+        width: 150px;
+        font-size: 15px;
+        font-weight: 550;
+        color: white;
+        background-color: #1ccdca;
+        margin-left: 5px;
+        transition: 0.5s;
+    }
+
+    .add_to_cart:hover {
+        background-color: #000;
+        cursor: pointer;
+    }
+
+    .wish_list_btn :hover {
+        color: #1ccdca;
+        transition: 0.5s;
+    }
+
+    .product_meta a {
+        color: #898989;
+        transition: 0.5s;
+    }
+
+    .product_meta a:hover {
+        color: #1ccdca;
+    }
+
+    .product_meta span {
+        font-weight: 600;
+    }
+
+    .shear_btn {
+        margin-top: 5px;
+        border-top: 1px solid #bfbfbf;
+    }
+    .tab_menu_area {
+        font-size: 25px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #bfbfbf;
+    }
+    .tab_menu_area i{
+        line-height: 25px;
+        color: #bfbfbf;
+    }
+    .decription_1{
+        font-size: 18px;
+        color: #898989;
+    }
