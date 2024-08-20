@@ -63,6 +63,7 @@
     .pr-0 {
         padding-right: 0PX !important;
     }
+    .mb{margin-bottom: 50px;}
 
     .col-1,
     .col-2,
@@ -242,7 +243,9 @@
 
     .icon_arow {
         margin-top: 40px;
-        font-size: 20px;
+        font-size: 30px;
+        text-align: center;
+        margin: 30px 0px 0px 0px;
     }
 
     .icon_arow:hover {
@@ -257,7 +260,8 @@
     }
 
     .big_font {
-        font-size: 30px;
+        margin: 0px;
+        font-size: 35px;
         text-align: center;
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -930,4 +934,13 @@
     .decription_1{
         font-size: 18px;
         color: #898989;
+    }
+    .title_related_product{
+        margin-top: 40px;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px 0px 0px 0px;
+    }
+    .related_products{
+        border-top: 2px solid #e4e4e4;
     }
