@@ -28,6 +28,10 @@
         overflow: hidden;
     }
 
+    .tc {
+        text-align: center !important;
+    }
+
     .p-0 {
         padding: 0px !important;
     }
@@ -776,10 +780,12 @@
 
     .orderby {
         height: 30px;
-        width: 150PX;
-        border: none;
+        width: 200PX;
+        border: 1px solid #d5d5d5;
         text-align: center;
         font-weight: 550;
+        color: #393939;
+        outline: none;
     }
 
     .page_numbers {
@@ -1097,7 +1103,7 @@
 
     .contact_info li i {
         padding: 15px;
-        font-size: 20px;
+        font-size: 15px;
         border: 1px solid #8a8a8a;
         border-radius: 50%;
         float: left;
@@ -1105,15 +1111,113 @@
         text-align: center;
     }
 
-    .contact_info li ,
-    .contact_info a{
+    .contact_info li,
+    .contact_info a {
+        font-size: 15px;
         margin-bottom: 30px;
         list-style: none;
         color: #646464;
     }
-     .contact_info a:hover{
+
+    .contact_info a:hover {
         color: #1ccdca;
-     }
-     .contact_info li i:hover{
+    }
+
+    .contact_info ul li i:hover {
         background-color: #1ccdca;
-     }
+    }
+
+    .name_input {
+        border: 1px solid #cccccc;
+        height: 50px;
+        width: 100%;
+        outline: none;
+        padding-left: 20px;
+        color: #646464;
+    }
+
+    .name_input {
+        border: 1px solid #cccccc;
+        height: 50px;
+        width: 100%;
+        outline: none;
+        padding: 20px;
+        color: #646464;
+    }
+
+    .submit_btn {
+        height: 40px;
+        font-size: 13px;
+        padding: 10px 15px 10px 15px;
+        color: white;
+        border: none;
+        background-color: #1ccdca;
+        transition: 0.5s;
+    }
+
+    .submit_btn:hover {
+        background-color: black;
+    }
+
+    .table {
+        font-size: 30px;
+        margin-top: 15px;
+        width: 100%;
+        border: 1px solid #cccccc;
+    }
+
+    .table th {
+        font-size: 20px;
+        font-weight: 550;
+    }
+
+    .cart_img {
+        box-sizing: border-box;
+        padding: 20px 10px;
+        width: 150px;
+    }
+.product_title th{
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin: 0px;
+}
+.product_title :nth-last-child(1){
+    border-right: 0px;
+}
+    .product_thumbnail {
+        color: #6f6f6f;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .br {
+        border-right: 1px solid #cccccc;
+    }
+
+    .bb {
+        border-bottom: 1px solid #cccccc;
+    }
+
+    table th {
+        padding: 20px;
+    }
+
+    .product_thumbnail input {
+        color: #6f6f6f;
+        width: 55px;
+        height: 35px;
+        padding-left: 10px;
+        border: none;
+        border: 1px solid #6f6f6f;
+    }
+
+    .product_thumbnail a,
+    .product_thumbnail i {
+        color: #6f6f6f;
+        transition: 0.5s;
+    }
+
+    .product_thumbnail a:hover,
+    .product_thumbnail i:hover {
+        color: #1ccdca;
+    }
