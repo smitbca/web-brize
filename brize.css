@@ -1153,10 +1153,12 @@
         border: none;
         background-color: #1ccdca;
         transition: 0.5s;
+        cursor: pointer;
     }
 
     .submit_btn:hover {
         background-color: black;
+        color: w;
     }
 
     .table {
@@ -1197,8 +1199,11 @@
     .bb {
         border-bottom: 1px solid #cccccc;
     }
-
-    table th {
+    .tables{
+        width: 100%;
+        border: 1px solid #cccccc;
+    }
+    .tables th {
         padding: 20px;
     }
 
@@ -1221,3 +1226,27 @@
     .product_thumbnail i:hover {
         color: #1ccdca;
     }
+    .buttons_cart{
+        border-bottom: 1px solid #e8e8e9;
+    }
+     .buttons_cart input{
+        margin-bottom: 20px;
+     }
+     .cart_subtotal{
+        width: 100%;
+        border: 1px solid #cccccc;
+     }
+     .cart_subtotal th ,.cart_subtotal td{
+       
+        color: #6f6f6f;
+        padding: 10px;
+        text-align: start;
+        font-weight: 600;
+        font-size:20px;
+     }
+     .cart_subtotal li{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        list-style: none;
+        font-weight: 500;
+     }
