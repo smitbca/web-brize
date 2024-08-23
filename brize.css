@@ -238,7 +238,8 @@
         background-color: #ebebeb;
         cursor: pointer;
         border-radius: 10px;
-        transition: 0.5s;
+        transition: 0.5s;  
+        visibility: hidden; 
     }
 
     .nav_links {
@@ -253,11 +254,7 @@
 
     .shop:hover .drop_down {
         opacity: 1;
-    }
-
-    .shop_btn:hover {
-        background-color: black;
-        color: aliceblue;
+        visibility: visible;
     }
 
     .icon_1 {
@@ -733,6 +730,7 @@
     }
 
     .tagcloud a:hover {
+        color: white;
         background-color: #000000;
     }
 
