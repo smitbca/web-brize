@@ -14,23 +14,33 @@
 <body>
     <div class="container-fluid">
         <!--header--start--->
-        <div class="row  border_botoom">
+        <div class="row border_botoom">
             <div class="col-2 logo-area">
                 <img src="/img/logo_brize.webp">
             </div>
-            <div class="col-7 menu">
-                <ul>
+            <div class="col-7 ">
+                <ul class="menu">
                     <li><a href="/brize.html">HOME</a></li>
-                    <li><a href="/cart.html">BLOG</a></li>
-                    <li><a href="/shop.html">SHOP</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li class="shop"><a href="/shop.html">SHOP</a>
+                        <div class="nav_links">
+                            <ul class="drop_down">
+                                <li class="nav_link"><a href="/shop.html">category</a></li>
+                                <li class="nav_link"><a href="/cart.html">cart</a></li>
+                                <li class="nav_link"><a href="#">list shopping</a></li>
+                                <li class="nav_link"><a href="#">account</a></li>
+                                <li class="nav_link"><a href="/checkout.html">checkout</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="#">PORTFOLIO</a></li>
                     <li><a href="/single_product.html">PAGES</a></li>
                     <li><a href="/about.html">ABOUT</a></li>
                     <li><a href="/contact.html">CONTECT US</a></li>
                 </ul>
             </div>
-            <div class="col-3 menu border ">
-                <ul>
+            <div class="col-3 p-0">
+                <ul class=" menu border">
                     <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href="#"> <i class="fa-solid fa-bag-shopping"> 2</i></a></li>
                     <li><a href="#">English</a></li>
@@ -57,7 +67,7 @@
                 </div>
                 <!-- breadcrumb area End -->
                 <div class="row pl">
-                    <table class="tables">
+                    <table class="border_tables tables">
                         <thead class="product_title">
                             <th>image</th>
                             <th>product</th>
@@ -86,14 +96,22 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="row mr_top pl ">
-                    <div class="col-8 buttons_cart pl-0 p-0">
-                        <input type="submit" value="UPDATE CART" class="submit_btn ">
-                        <input type="submit" value="CONTINUE SHOPPING" class="submit_btn ">
+                <div class="row mr_top pl">
+                    <div class="col-8  pl-0 pr">
+                        <div class="buttons_cart">
+                            <input type="submit" value="UPDATE CART" class="submit_btn ">
+                            <input type="submit" value="CONTINUE SHOPPING" class="submit_btn ">
+                        </div>
+                        <div class="coupon mt">
+                            <h3>COUPON</h3>
+                            <p class="mt">Enter your coupon code if you have one.</p>
+                            <input type="submit" value="Coupon code" class="submit_btn bg mt">
+                            <input type="submit" value="APPLIY COUPON" class="submit_btn ">
+                        </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 pr-0">
                         <h3>CART TOTAL</h3>
-                        <table class="cart_subtotal mt ">
+                        <table class="cart_subtotal mt border_tables">
                             <thead>
                                 <th class="br bb">Subtotal</th>
                                 <th class="bb">£90.00</th>
