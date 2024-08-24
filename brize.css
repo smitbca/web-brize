@@ -228,7 +228,10 @@
         border: none;
         transition: 1s;
     }
-
+   .shop_btn:hover {
+    color: white;
+    background-color: #000;
+   }
     .drop_down {
         display: block;
         justify-content: left;
@@ -238,8 +241,8 @@
         background-color: #ebebeb;
         cursor: pointer;
         border-radius: 10px;
-        transition: 0.5s;  
-        visibility: hidden; 
+        transition: 0.5s;
+        visibility: hidden;
     }
 
     .nav_links {
@@ -856,7 +859,7 @@
         padding: 5px;
         color: #f3f3f3;
         font-weight: 600;
-        margin-left: -310px;
+        margin-left: -325px;
         margin-top: 12px;
         transform: rotate(90deg);
     }
@@ -867,6 +870,36 @@
         cursor: pointer;
         font-size: 20px;
         font-weight: 100;
+    }
+
+    .price_section_three h2 {
+        margin-bottom: 20px;
+        color: #555555;
+        font-weight: 100;
+    }
+
+    .price_section_three del {
+        font-size: 15px;
+    }
+
+    .price_section_three i,
+    .price_section_three p {
+        margin-top: 15px;
+        color: #555555;
+        font-size: 15px;
+    }
+
+    .price_section_three>p {
+        font-size: 20px;
+    }
+
+    .action_buttons i {
+        width: 50px;
+        text-align: center;
+        font-size: 20px;
+        padding: 12px;
+        background-color: #000000;
+        color: white;
     }
 
     .thumnail_image {
@@ -1174,7 +1207,7 @@
         color: #646464;
     }
 
-    .submit_btn {
+    .submit_btn input[type="submit"] {
         height: 40px;
         font-size: 13px;
         padding: 10px 15px 10px 15px;
@@ -1185,9 +1218,8 @@
         cursor: pointer;
     }
 
-    .submit_btn:hover {
+    .submit_btn input:hover {
         background-color: black;
-        color: w;
     }
 
     .table th {
@@ -1205,6 +1237,7 @@
         border-right: 1px solid #cccccc;
         border-bottom: 1px solid #cccccc;
         margin: 0px;
+        text-transform: uppercase
     }
 
     .product_title :nth-last-child(1) {
@@ -1329,19 +1362,113 @@
         margin-top: 5px;
     }
 
-    .coupon_info a,.coupon_accordion a{
-        color: #a7a7a7;
+    .country_select select,
+    .country_select input {
+        margin-top: 8px;
+        height: 35px;
+        padding-left: 10px;
     }
 
-    .coupon_info input,
-    .coupon_info label {
-        color: #a7a7a7;
+    .checkout_form_list input {
+        margin-top: 8px;
+        height: 40px;
+        padding-left: 10px;
     }
-    .country_select label{
+
+    .creat_account h1>label {
+        font-weight: 600;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .order_notes input {
+        padding: 10px 10px 50px 10px;
+        margin-top: 5px;
+    }
+
+    .checkbox_form input,
+    .checkbox_form select {
+        border: none;
+        width: 100%;
+        border: 1px solid #d3d3d3;
+        outline: none;
+    }
+
+    .checkbox_form label {
+        font-size: 18px;
+        color: #3f3f3f;
+    }
+
+    .your_order table {
+        color: #303030;
+        border: 1px solid #d3d3d3;
+        border-spacing: 0px;
+    }
+
+    .your_order tr>td {
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .product_name {
+        width: 800px;
+    }
+
+    .product_total {
+        width: 200px;
+    }
+
+    .product_total li {
+        list-style: none;
+    }
+
+    .payment_method {
+        box-sizing: border-box;
+        padding: 20px;
+        background-color: #ebe9eb;
+    }
+
+    .payment_method i,
+    .payment_method a {
+        font-weight: bold;
+        margin-right: 10px;
+        color: #1ccdca;
+    }
+
+    .payment_content p {
+        background-color: #fdfdfd;
+        padding: 13px;
         font-size: 18px;
     }
-    .country_select select,.country_select input{
-        margin-top: 8px;
-        width: 100%;height: 35px;
-        padding-left: 10px;
+
+    .payment_check i,
+    .payment_check a {
+        font-weight: bold;
+        margin-right: 10px;
+        color: #000000;
+    }
+
+    .creat_account input {
+        width: 20px;
+    }
+
+    .red {
+        color: red;
+    }
+
+    .payment_img {
+        height: 80px;
+        margin-left: 20px;
+    }
+
+    .payment_check button {
+        width: 100%;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .payment_check>.submit_btn>a input {
+        width: 100%;
+        height: 50px;
+        font-size: 25px;
     }

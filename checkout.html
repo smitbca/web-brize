@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,11 +31,12 @@
                                 <li class="nav_link"><a href="#">list shopping</a></li>
                                 <li class="nav_link"><a href="#">account</a></li>
                                 <li class="nav_link"><a href="/checkout.html">checkout</a></li>
+                                <li class="nav_link"><a href="/single_product.html">single product Page</a></li>
                             </ul>
                         </div>
                     </li>
                     <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="/single_product.html">PAGES</a></li>
+                    <li><a href="">PAGES</a></li>
                     <li><a href="/about.html">ABOUT</a></li>
                     <li><a href="/contact.html">CONTECT US</a></li>
                 </ul>
@@ -84,31 +86,34 @@
                     <p class="coupon_text">Quisque gravida turpis sit amet nulla posuere lacinia. Cras sed est sit amet
                         ipsum luctus.</p>
                     <div class="user_password">
-                        <label for="User or Email">User or Email</label><br>
+                        <label for="User or Email">User or Email<span class="red">*</span></label><br>
                         <input type="text" required><br>
-                        <label for="Password">Password</label><br>
+                        <label for="Password">Password<span class="red">*</span></label><br>
                         <input type="text" required><br>
                     </div>
-                    <button class="submit_btn mt">LOGIN</button>
-                    <input type="checkbox">
-                    <label for="Remamber me">Remamber me</label><br><br>
+                    <div class="submit_btn mt">
+                        <a href="#"><input type="submit" value="Login"></a>
+                        <input type="checkbox">
+                    <label for="Remamber me">Remamber me</label>
+                    </div>
+                    <br><br>
                     <a href="#">Lost your password?</a>
                 </div>
             </div>
             <div class="row  pl mt">
                 <div class="coupon_accordion">
                     <i class="fa-solid fa-credit-card  pl"></i>
-                    <a href="#">Have a coupon?   </a>
+                    <a href="#">Have a coupon? </a>
                     <a href="#">Click here to enter your code</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 mr_top">
+            <div class="row mb">
+                <div class="col-6 mr_top checkbox_form mb">
                     <h2 class="mb">
                         BILLING DETAILS
-                    </h2> 
+                    </h2>
                     <div class="col-12 p-0 country_select">
-                        <label for="country">country</label><br>
+                        <label for="country">country<span class="red">*</span></label><br>
                         <select>
                             <option value="Bangladesh">Bangladesh</option>
                             <option value="Algeria">Algeria</option>
@@ -121,12 +126,116 @@
                         </select>
                     </div>
                     <div class="col-12 p-0">
-                        <div class="col-6 country_select p-0">
-                            <label for="country">country</label><br>
+                        <div class="col-6 checkout_form_list pl-0 mt">
+                            <label for="country">First Name<span class="red">*</span></label><br>
+                            <input type="text">
+                        </div>
+                        <div class="col-6 checkout_form_list pl p-0 mt">
+                            <label for="country">Last Name<span class="red">*</span></label><br>
                             <input type="text">
                         </div>
                     </div>
-                    
+                    <div class="col-12 checkout_form_list mt p-0">
+                        <label for="country">Company Name</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="col-12 checkout_form_list mt p-0">
+                        <label for="country">Address<span class="red">*</span></label><br>
+                        <input type="text" placeholder="Street address">
+                        <input type="text" placeholder="Apartment, suite, unit etc. (optional)">
+                    </div>
+                    <div class="col-12 checkout_form_list mt p-0">
+                        <label for="country">Town/City<span class="red">*</span></label><br>
+                        <input type="text" placeholder="Town/City">
+                    </div>
+                    <div class="col-12 p-0">
+                        <div class="col-6 checkout_form_list pl-0 mt">
+                            <label for="country">State / County<span class="red">*</span> </label><br>
+                            <input type="text">
+                        </div>
+                        <div class="col-6 checkout_form_list pl p-0 mt">
+                            <label for="country">Postcode / Zip<span class="red">*</span> </label><br>
+                            <input type="text" placeholder="Postcode / Zip">
+                        </div>
+                    </div>
+                    <div class="col-12 p-0">
+                        <div class="col-6 checkout_form_list pl-0 mt">
+                            <label for="country">Email Address<span class="red">*</span> </label><br>
+                            <input type="text">
+                        </div>
+                        <div class="col-6 checkout_form_list pl p-0 mt">
+                            <label for="country">Phone<span class="red">*</span></label><br>
+                            <input type="text" placeholder="Postcode / Zip">
+                        </div>
+                    </div>
+                    <div class="col-12 p-0 mt creat_account">
+                        <input type="checkbox">
+                        <label for="">Create an account?</label>
+                    </div>
+                    <div class="col-12  p-0 mt creat_account">
+                        <h1><input type="checkbox"><label> Ship to a different address?</label></h1>
+                    </div>
+                    <div class="col-12 order_notes p-0 mr_top">
+                        <label for="country">Order Notes</label><br>
+                        <input type="text" placeholder="Notes about your order, e.g. special notes for delivery.">
+                    </div>
+                </div>
+                <div class="col-6 your_order  pl mr_top p-0 mb">
+                    <h2>YOUR ORDER</h2>
+                    <table class="mr_top">
+                        <thead>
+                            <tr>
+                                <td class="product_name br bb">PRODUCT</td>
+                                <td class="product_total bb">TOTAL</td>
+                            </tr>
+                            <tr>
+                                <td class=" product_namebr br bb"> Vestibulum suscipit </td>
+                                <td class="product_total bb">£165.00</td>
+                            </tr>
+                            <tr>
+                                <td class=" product_namebr br bb">
+                                    Vestibulum dictum magna </td>
+                                <td class="product_total bb">£50.00</td>
+                            </tr>
+                            <tr>
+                                <td class=" product_namebr br bb">CART SUBTOTAL</td>
+                                <td class="product_total bb">£215.00</td>
+                            </tr>
+                            <tr>
+                                <td class="product_name br">SHIPPING</td>
+                                <td class="product_total">
+                                    <ul>
+                                        <li><input type="radio"><br>
+                                            <label>
+                                                Flat Rate: £7.00</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio"><br>
+                                            <label>Free shipping:</label>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </thead>
+                    </table>
+                    <div class="payment_method mt">
+                        <i class="fa-sharp fa-solid fa-plus"></i>
+                        <a href="#">Direct Bank Transfer</a>
+                        <div class="payment_content mt">
+                            <p>Make your payment directly into our bank account. Please use your Order ID as the payment
+                                reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                        </div>
+                        <div class="payment_check">
+                            <i class="fa-solid fa-minus mt"></i>
+                            <a href="#">Cheque Payment</a><br>
+                            <i class="fa-solid fa-minus mt"></i>
+                            <a href="#">paypal</a>
+                            <span><img src="/img/payment.webp" alt="" class="payment_img "></span><br>
+                            <div class="submit_btn mt">
+                                <a href="#"><input type="submit" value="PLACE ORDER"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
